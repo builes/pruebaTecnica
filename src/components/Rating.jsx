@@ -1,6 +1,6 @@
 import React, {useState, Fragment} from 'react'
 import {FaStar} from 'react-icons/fa'
-import Comic from './Comic'
+
 
 export default function Rating() {
 
@@ -38,7 +38,7 @@ export default function Rating() {
             </div>
 
             {/* <div className="col-7 App mt-4">
-                <button className="btn btn-lg btn-primary" >Siguiente Imagen</button>
+                <button className="btn btn-lg btn-primary" onClick={location.reload()}>Siguiente Imagen</button>
             </div> */}
         </Fragment>
         

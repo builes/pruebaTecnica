@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 
-
 export default function Comic() {
 
     const [datosApi, setDatosApi] = useState()
@@ -36,12 +35,4 @@ export default function Comic() {
 }
 
 
-// fetch(`https://cors-anywhere.herokuapp.com/http://xkcd.com/${aleatorio}/info.0.json`)
-//     .then(res => res.json())//res es la respuesta que nos envia desde donde realizamos la peticion
-//     .then(res => {
-//         console.log(res)
-//         contenido2.innerHTML = `<h3>Nombre: ${res.title}</h3>
-//         <img src="${res.img}" width="100" class="img-fluid">
-//         <p>Nombre: ${res.alt}</p>`
-//     })
 

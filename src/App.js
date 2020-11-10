@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Comic from './components/Comic'
 import Rating from './components/Rating';
